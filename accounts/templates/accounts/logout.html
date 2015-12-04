@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}ログアウト{% endblock title %}
+
+{% block content %}
+
+<nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
+    <li><a href="/login/">Login</a></li>
+    <li><a href="/accounts/user/">ユーザ一覧</a></li>
+    <li><a href="/accounts/list/">SLアカウント一覧</a></li>
+    <li class="active"><a href="/logout/">Logout</a></li>
+  </ul>
+</nav>
+
+    <h3 class="page-header">ログアウトしました</h3>
+
+{% endblock content %}
